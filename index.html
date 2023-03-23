@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio website</title>
+</head>
+<body>
+    <div class="background">
+        <section id="main">
+        <nav>
+            <h2 class="logo">Portfo<span>lio</span></h2>
+            
+            <ul class="cabeçalho">
+                <li><a href="#main">Inicio</a></li>
+                <li><a href="#main-sobre">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#me-contrate">contato</a></li>
+            </ul>
+            <a href="#" class="btn">Contratar</a>
+            
+        </nav>
+
+
+            <div class="main">
+                <h4>Ola, meu nome é</h4>
+                <h1>Rodrigo<span> Meneghelli</span></h1>
+                <h3>Eu sou desenvolvedor <span>Front-end</span></h3>
+                <div class="Container-btn">
+                    <form>
+                        <input type="email" nome="email" id="email" placeholder="envie seu email">
+                        <input type="submit" nome="submit" value="Começar">
+                    </form>
+                </div>
+            </div>
+            
+        </section>
+
+        <aside>
+            <div class="icon-menu">
+                <div class="menu" onclick="abrirMenu()">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </div>
+            <div id="barra-menu">
+                <ul>
+                    <li><a href="#main">Inicio</a></li>
+                    <li><a href="#main-sobre">Sobre mim</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#me-contrate">contato</a></li>
+
+                    <a href="#" class="btn">Contratar</a>
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+
+    <section id="main-sobre" class="background-color-sobre">
+        <div class="main-sobre">
+
+                <div class="main-img">
+                    <img src="main-img.jpg" alt="">
+                </div>
+
+            <div class="text-sobre">
+                <h2>Sobre-mim</h2>
+                <h5>Desenvolvedor <span>& videomaker</span></h5>
+                <p>Eu sou Desenvolvedor front-end. Eu posso fornecer codigos limpos e imagem de desing perfeito. E também fazer o website ou aplicativo o mais otimizado possivel. E posso Deixar seu site responsivo, e que ele acesse todos os usuarios, independente dos seus aparelhos dispositivos.</p>
+                <button class="button">Vamos conversa</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades">
+
+        <div class="habilidades">
+            <div class="title">
+                <h2>Minhas Habilidades</h2>
+            </div>
+    
+            <div class="caixa">
+                <div class="card">
+                    <ion-icon name="logo-html5"></ion-icon>
+                    <button class="button">HTML5</button>
+                </div>
+    
+                <div class="card">
+                    <ion-icon name="logo-css3"></ion-icon>
+                    <button class="button">CSS3</button>
+                </div>
+                
+                <div class="card">
+                    <ion-icon name="logo-javascript"></ion-icon>
+                    <button class="button">JavaScript</button>
+                </div>
+    
+                <div class="card">
+                    <ion-icon name="logo-react"></ion-icon>
+                    <button class="button">React.Js</button>
+                </div>
+    
+                <div class="card">
+                    <ion-icon name="logo-react"></ion-icon>
+                    <button class="button">React Native</button>
+                </div>
+    
+            </div>
+        </div>
+
+    </section>
+
+    <section id="me-contrate">
+        
+        <div class="me-contrate">
+            <p>Entre em contato e me ajude na minha primeira experiencia como desenvolvedor</p>
+            <button class="button">enviar mensagem</button>
+        </div>
+    
+        <footer>
+            <h6>Rodrigo Meneghelli</h6>
+            <p>Para redes sociais e mais projetos e so clicar nos links abaixo</p>
+            <div class="redes-sociais">
+                <a href="https://www.linkedin.com/in/rodrigo-meneghelli-108963223/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://www.instagram.com/rodrigosbmeneghelli/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://github.com/RodrigoMeneghelli"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
+            </div>
+            <div class="end">
+                <p>© RodrigoMeneghelli</p>
+            </div>
+
+    </section>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
